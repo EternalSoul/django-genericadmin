@@ -18,7 +18,7 @@ setup(
     author_email='wnielson@gmail.com, jschrewe@googlemail.com, worldnomad@gmail.com',
     url='https://github.com/arthanson/django-genericadmin',
     packages = ['genericadmin'],
-#    package_data={'genericadmin': ['static/genericadmin/js/genericadmin.js']},
+    # package_data={'genericadmin': ['static/genericadmin/js/genericadmin.js']},
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python',
         'Framework :: Django',
     ],
-    long_description=convert_readme(),
+    long_description="Adds support for generic relations within Django's admin interface.",
     include_package_data=True,
     zip_safe=False,
 )
